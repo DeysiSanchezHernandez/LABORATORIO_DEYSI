@@ -15,7 +15,7 @@ console.log("Tipo de esEstudiante:", typeof esEstudiante);
 
 // FASE 3: Literales de Cadena y Plantillas 
 let nombre = "Deysi";
-let saludo = Hola ${nombre}, tienes ${edad} años.;
+let saludo =  `Hola ${nombre}, tienes ${edad} años. `;
 console.log(saludo);
 
 let mensaje = `
@@ -25,3 +25,13 @@ Las plantillas respetan los saltos de línea.
 `;
 
 console.log(mensaje);
+
+// FASE 4: Control de Flujo con Literales 
+let sabor = "chocolate";
+
+if (sabor === "chocolate") {
+    console.log("Te gusta el chocolate.");
+} else {
+    console.log("Prefieres otro sabor.");
+}
+
